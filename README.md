@@ -30,7 +30,7 @@ Movies App gets 20 movies from TheMovieDB API according to chosen category. Dark
 This project is written in Swift 5.0 and Xcode 11 is used.
 
 # Images
-![alt text][logo] ![alt text][logo]
+![alt text][image1] ![alt text][image2]
 ![alt text][logo]![alt text][logo]
 ![alt text][logo]![alt text][logo]
 ![alt text][logo]![alt text][logo]
@@ -39,7 +39,7 @@ This project is written in Swift 5.0 and Xcode 11 is used.
 [image1]: https://github.com/deniizcag/Movies/tree/master/screenshots/MoviesDark.png
 "Image 1"
 
-[image2]: https://github.com/deniizcag/Movies/tree/master/screenshots/MoviesDark.png
+[image2]: https://github.com/deniizcag/Movies/tree/master/screenshots/MoviesLight.png
 "Image 2"
 
 [image3]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 3"
