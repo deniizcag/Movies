@@ -29,3 +29,30 @@ Movies App gets 20 movies from TheMovieDB API according to chosen category. Dark
 # Compatibility
 This project is written in Swift 5.0 and Xcode 11 is used.
 
+# Images
+![alt text][logo] ![alt text][logo]
+![alt text][logo]![alt text][logo]
+![alt text][logo]![alt text][logo]
+![alt text][logo]![alt text][logo]
+
+
+[image1]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 1"
+
+[image2]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 2"
+
+[image3]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 3"
+
+[image4]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 4"
+
+[image5]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 5"
+
+[image6]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 6"
+
+[image7]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 7"
+
+[image8]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image 8"
+
+
+
+
+[df1]: <https://developers.themoviedb.org/3/getting-started/introduction>
