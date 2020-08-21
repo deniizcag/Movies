@@ -31,12 +31,12 @@
     <img src="screenshots/MoviesLight.png" alt="Trulli"  width="350" height="720"></p>
     </p>
     
-
-    <p>
+    
+<p>
     <img src="screenshots/SearchDark.png" alt="Trulli" width="350" height="720">
-        <img src="screenshots/FavoritesLight.png" alt="Trulli"  width="350" height="720"></p>
+    <img src="screenshots/FavoritesLight.png" alt="Trulli"  width="350" height="720"></p>
         </p>
-
+      
 
 <p>
 <img src="screenshots/DetailMovieDark.png" alt="Trulli" width="350" height="720">
