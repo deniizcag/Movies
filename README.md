@@ -4,7 +4,7 @@
 <ul>
 <li>UIKit</li>
 <li>MVC Design Pattern</li>
-<li>Fully programmatic UI</li>
+<li>No Storyboard, only programmatic UI</li>
 <li>Networking</li>
 <li>JSON Parsing</li>
 <li>Public APIs</li>
