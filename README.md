@@ -1,5 +1,13 @@
 <h1 id="movies">Movies</h1>
-<p>Movies App gets 20 movies from TheMovieDB API according to chosen category. Dark mode is also supported. Main features: - Gets top, popular or upcoming movies and displays them in collection view cells - Any movie can be searched in these cells - Details of movie are displayed on details page - Any movie can be added to favorites or can be deleted from favorites</p>
+<p>Movies App gets 20 movies from TheMovieDB API according to chosen category. Dark mode is also supported. Main features:
+<ul>
+<li> Gets top, popular or upcoming movies and displays them in collection view cells</li>
+ <li> Any movie can be searched in these cells</li> 
+    <li> Details of movie are displayed on details page</li>
+    <li> Any movie can be added to favorites or can be deleted from favorites</li>
+</ul>
+</p>
+
 <h1 id="technologies-used">Technologies Used</h1>
 <ul>
 <li>UIKit</li>
