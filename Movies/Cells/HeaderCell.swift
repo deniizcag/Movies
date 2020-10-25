@@ -36,6 +36,7 @@ class HeaderCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         layoutUI()
+        
     }
     
     func layoutUI() {
@@ -44,7 +45,8 @@ class HeaderCell: UICollectionViewCell {
         popularButton.tag = 0
         upcomingButton.tag = 1
         topRatedButton.tag = 2
-        
+        popularButton.backgroundColor = .gray
+
         popularButton.addTarget(self, action: #selector(categoryButtonPressed), for: .touchUpInside)
         upcomingButton.addTarget(self, action: #selector(categoryButtonPressed), for: .touchUpInside)
         topRatedButton.addTarget(self, action: #selector(categoryButtonPressed), for: .touchUpInside)
@@ -63,13 +65,23 @@ class HeaderCell: UICollectionViewCell {
         
     }
     @objc func categoryButtonPressed(sender: UIButton) {
+        
+        let buttons = [popularButton,upcomingButton,topRatedButton]
+        
+        for button in buttons {
+            button.backgroundColor = .secondarySystemBackground
+        }
+        
         switch sender.tag {
         case 0:
             delegate.getMoviesButtonPressed(category: MovieCategory.popular)
+            popularButton.backgroundColor = .gray            
         case 1:
             delegate.getMoviesButtonPressed(category: MovieCategory.upcoming)
+            upcomingButton.backgroundColor = .gray
         case 2:
             delegate.getMoviesButtonPressed(category: MovieCategory.top)
+            topRatedButton.backgroundColor = .gray
         default:
             break
         }
